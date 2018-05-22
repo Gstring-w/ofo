@@ -1,0 +1,27 @@
+/* pages/billing/index.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.number{
+  font-size: 50rpx;
+}
+.time{
+  font-size: 100rpx;
+}
+.time .time-title{
+  margin-bottom: 20rpx;
+}
+.time .time-content{
+  font-size: 120rpx;
+}
+.endride{
+  width: 90%;
+}
+.endride .endride-back{
+  margin-top: 20rpx;
+}

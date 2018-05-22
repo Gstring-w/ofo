@@ -1,0 +1,29 @@
+<!--pages/wallet/index.wxml-->
+<view class='container'>
+  <view class='money'>
+     <view>
+     <text class='my-money'>我的余额（元）</text>
+     </view>
+     <view>
+     <text class='money-content'>{{money}}</text>
+     </view>
+     <view>
+     <text class='money-des'>余额说明</text>
+     </view>
+  </view>
+  <button class='btn'>充值</button>
+  <view class='ticket'>
+    <text>我的用车券</text>
+    <text>{{ticket}}张></text>
+  </view>
+  <view class='deposlt'>
+    <text>我的押金</text>
+    <text><text class='deposlt-des'>99元，押金退款</text>></text>
+  </view>
+
+<view class='about'>
+    <text>关于ofo</text>
+    <text>></text>
+  </view>
+
+</view>
